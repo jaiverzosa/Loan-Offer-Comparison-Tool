@@ -31,33 +31,27 @@ A full-stack project that helps users compare different loan offers based on the
    cd Loan-Offer-Comparison-Tool
    Setup backend
    ```
+2. **Setup Backend**
+- cd server
+- npm install
+- npm run dev
+- Server runs at: http://localhost:5000
 
-bash
-Copy code
-cd server
-npm install
-npm run dev
-Server runs at: http://localhost:5000
-
-Setup frontend
-
-bash
-Copy code
-cd client
-npm install
-npm start
-Frontend runs at: http://localhost:3000
+3. **Setup frontend**
+- cd client
+- npm install
+- npm start
+- Frontend runs at: http://localhost:3000
 
 🚀 Usage
-Open the app in your browser: http://localhost:3000
-
-Fill in your details (first name, email, loan amount, and loan term).
-
-Submit the form.
-
-See loan offers displayed in a table.
+- Open the app in your browser: http://localhost:3000
+- Fill in your details (first name, email, loan amount, and loan term).
+- Submit the form.
+- See loan offers displayed in a table.
 
 📩 Notes
 This project is for demo purposes — loan offers are fake/generated.
 
-Built as an assignment to demonstrate frontend validation, backend API creation, and full-stack integration.
+📷 Screenshots
+<img width="1358" height="902" alt="g_web1" src="https://github.com/user-attachments/assets/880674bd-7016-4a20-92af-dc447bbe28a6" />
+<img width="1342" height="898" alt="g_web2" src="https://github.com/user-attachments/assets/6bbc360a-06e3-4ff4-be65-9aac3594297d" />
