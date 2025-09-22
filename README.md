@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Loan Offer Comparison Tool
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack project that helps users compare different loan offers based on the loan amount and loan term they enter.
 
-## Available Scripts
+## 📌 Features
 
-In the project directory, you can run:
+- **User-friendly form with validation**:
+  - First name (letters only)
+  - Email address (valid email format)
+  - Loan amount (minimum $2000)
+  - Loan term (1–7 years)
+  - Real-time inline error messages
+  - Submit button disabled until form is valid
+- **Backend API** that generates fake loan offers with:
+  - Lender name
+  - Interest rate
+  - Fees
+  - Calculated monthly repayment
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend:** React + TypeScript
+- **Backend:** Node.js (Express) + TypeScript
+- **Other:** CORS, Fetch API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ⚙️ Installation
 
-### `npm test`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/jaiverzosa/Loan-Offer-Comparison-Tool.git
+   cd Loan-Offer-Comparison-Tool
+   Setup backend
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+cd server
+npm install
+npm run dev
+Server runs at: http://localhost:5000
 
-### `npm run build`
+Setup frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+cd client
+npm install
+npm start
+Frontend runs at: http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🚀 Usage
+Open the app in your browser: http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fill in your details (first name, email, loan amount, and loan term).
 
-### `npm run eject`
+Submit the form.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+See loan offers displayed in a table.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📩 Notes
+This project is for demo purposes — loan offers are fake/generated.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Built as an assignment to demonstrate frontend validation, backend API creation, and full-stack integration.
